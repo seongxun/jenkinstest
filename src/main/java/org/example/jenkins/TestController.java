@@ -7,9 +7,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController("/test")
 public class TestController {
 
-    @GetMapping("/v1")
+    @GetMapping("/version")
     public ResponseEntity<String> test(){
         System.out.println("hi");
-        return ResponseEntity.ok("v1");
+        return ResponseEntity.ok("v2");
     }
 }
