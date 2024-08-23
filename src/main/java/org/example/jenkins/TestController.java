@@ -9,6 +9,7 @@ public class TestController {
 
     @GetMapping("/v1")
     public ResponseEntity<String> test(){
+        System.out.println("hi");
         return ResponseEntity.ok("v1");
     }
 }
