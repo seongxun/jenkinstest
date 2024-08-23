@@ -10,6 +10,6 @@ public class TestController {
     @GetMapping("/version")
     public ResponseEntity<String> test(){
         System.out.println("hi");
-        return ResponseEntity.ok("v3");
+        return ResponseEntity.ok("v4");
     }
 }
